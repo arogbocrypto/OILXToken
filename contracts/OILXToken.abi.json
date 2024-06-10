@@ -1,0 +1,43 @@
+{
+  "ABI version": 2,
+  "version": "2.1",
+  "header": ["time", "expire"],
+  "functions": [
+    {
+      "name": "mintTokens",
+      "inputs": [
+        {"name": "to_address", "type": "slice"},
+        {"name": "jetton_wallet_code", "type": "cell"},
+        {"name": "amount", "type": "int"},
+        {"name": "master_msg", "type": "cell"}
+      ],
+      "outputs": []
+    },
+    {
+      "name": "transfer",
+      "inputs": [
+        {"name": "amount", "type": "int"},
+        {"name": "to", "type": "int"}
+      ],
+      "outputs": [
+        {"name": "success", "type": "int"}
+      ]
+    },
+    {
+      "name": "getBalance",
+      "inputs": [],
+      "outputs": [
+        {"name": "balance", "type": "int"}
+      ]
+    },
+    {
+      "name": "getTotalSupply",
+      "inputs": [],
+      "outputs": [
+        {"name": "totalSupply", "type": "int"}
+      ]
+    }
+  ],
+  "data": [],
+  "events": []
+}
