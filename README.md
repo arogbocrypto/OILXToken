@@ -1,5 +1,11 @@
 # OILX Token
 
+<div align="center">
+  <img src="https://github.com/arogbocrypto/oilx/blob/main/oilx_logo.png?raw=true" alt="OILX Logo" style="width: 150px; height: auto;">
+  <h1>OILX Whitepaper</h1>
+</div>
+
+
 ## Overview
 
 OILX is a token designed to mirror the price movements of NYMEX crude oil. It provides investors with a unique opportunity to participate in the crude oil market without the complexities of traditional investment methods.
